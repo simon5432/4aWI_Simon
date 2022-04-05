@@ -1,0 +1,25 @@
+h1{
+    
+}
+div{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #264138;
+    margin: 20px;
+}
+.divOver{
+    display: flex;
+    justify-content:space-evenly;
+}
+.div1{
+    height: 50%;
+    width: 20px;
+}
+.div2{
+    width:30px;
+    background-color: blue;
+}
+.div3{
+    width: 33%;
+    background-color: purple;
+}
