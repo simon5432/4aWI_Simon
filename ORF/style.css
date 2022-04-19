@@ -1,0 +1,51 @@
+
+.navText{
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif; 
+    font-feature-settings: "liga", "kern";
+    color: white;
+}
+.nav{
+    background-color: darkred;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.navOneLeft{
+    justify-content: space-around;
+    display: flex;
+    width: 80%;
+}
+.navOneRight{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.orfLogoDiv{
+    background-color: rgb(183, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.article{
+    background-color: darkslategray;
+}
+
+.navTwoLeft{
+    justify-content: space-around;
+    display: flex;
+    width: 90%;
+}
+.navTwoRight{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+header1{
+    font-size: 30px;
+    padding-left: 5%;
+    color: white;
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif; 
+    font-feature-settings: "liga", "kern";
+}
