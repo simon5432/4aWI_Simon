@@ -27,8 +27,20 @@
     align-items: center;
     justify-content: left;
 }
+.articMax{
+    position: relative;
+    justify-content: center;
+}
 .article{
-    background-color: darkslategray;
+    margin: auto;
+    width: 80%;
+    background-color: whitesmoke;
+    height:fit-content;
+    position: relative;
+    top: -100px;
+}
+.articleImage{
+    position: relative;
 }
 
 .navTwoLeft{
@@ -48,4 +60,21 @@ header1{
     color: white;
     font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif; 
     font-feature-settings: "liga", "kern";
+}
+h2{
+    padding-top: 2%;
+    padding-left: 2%;
+    font-size: 20px;
+    color: lightgrey;
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif; 
+    font-feature-settings: "liga", "kern";
+}
+h1{
+    padding-left: 2%;
+    font-size: 30px;
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif; 
+    font-feature-settings: "liga", "kern";
+}
+.articleText{
+    padding-left: 2%;
 }
