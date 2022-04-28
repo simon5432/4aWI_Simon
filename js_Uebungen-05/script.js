@@ -29,7 +29,7 @@ console.log("8 Äpfel kosten", PricePerApple * 8 +
 "\n1000 kg Bananen kosten", bananaPricePerKilo * 1000)
 
 // 04 Schleifen
-/*
+
 for (let countd = 10; countd>=0;countd--){
     console.log(countd)
 }
@@ -67,7 +67,6 @@ for (let countd = 10; countd>=0;countd--){
     console.log(countd)
 }
 
-*/
 
 // 05 if-Bedingung
 /* if (x vergleichsoperator y){
