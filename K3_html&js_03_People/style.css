@@ -1,0 +1,8 @@
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    background-color: rgb(74, 76, 84);
+    color:aliceblue;
+}
