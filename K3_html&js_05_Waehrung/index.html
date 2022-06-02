@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Währungsrechner</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="inputDiv">
+            <div class="currencyDiv1">
+                <input type="text" id="inputValue">
+                <select name="Currency" id="inputCurrency">
+                    <option value="0">Euro</option>
+                    <option value="1">Yen</option>
+                    <option value="2">Pfund</option>
+                    <option value="3">Dollar</option>
+                  </select>
+            </div>
+            <div class="currencyDiv2">
+                <text id="ziel"> Ziel </text>
+                <select name="Currency" id="outputCurrency">
+                    <option value="0">Euro</option>
+                    <option value="1">Yen</option>
+                    <option value="2">Pfund</option>
+                    <option value="3">Dollar</option>
+                  </select>
+            </div>
+            <button id="calculate">Berechnen</button>
+        </div>
+        <div class="outputDiv">
+            <p id="outputValue">Output</p>
+        </div>
+    </div>
+</body>
+</html>

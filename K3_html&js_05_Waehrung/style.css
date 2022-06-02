@@ -1,0 +1,40 @@
+.currencyDiv1 {
+    height: 50 px;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.currencyDiv2 {
+    height: 50 px;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.inputDiv {
+    position: relative;
+    margin: 2%;
+
+}
+.outputDiv {
+    display: flex;
+    justify-content: center;
+
+}
+.wrapper {
+    width: 40%;
+    height: 50%;
+}
+#calculate {
+    height: 50px;
+    margin: 1%;
+    width: 100%;
+}
+#ziel, #inputValue {
+    width: 30%;
+    font-size: larger;
+
+}
+#inputCurrency, #outputCurrency{
+    width: 20%;
+    font-size: larger;
+}
